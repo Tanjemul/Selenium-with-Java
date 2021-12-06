@@ -14,7 +14,7 @@ public class Main {
 	WebDriver driver = new ChromeDriver();
 	
 	driver.manage().window().maximize();
-	driver.get("http://**.***.***.***:****/");
+	driver.get("http://**.***.**.**:****/");
 	System.out.println(driver.getTitle());
 	WebElement id = driver.findElement(By.className(null).cssSelector("#account > div:nth-child(3) > input"));
 	
